@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'llist-build'
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
